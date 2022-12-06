@@ -16,7 +16,7 @@ const connectDB = require("./dbConfig");
 connectDB();
 
 app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://holy-sunset-9957.on.fleek.co/"); //configure frontend port here
+  res.header("Access-Control-Allow-Origin", "https://holy-sunset-9957.on.fleek.co"); //configure frontend port here
   res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE,PATCH");
   res.header("Access-Control-Allow-Headers", "Content-Type");
   next();
