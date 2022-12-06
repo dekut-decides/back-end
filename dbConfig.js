@@ -8,7 +8,7 @@ const connectDatabase = async () => {
         useNewUrlParser: true,
       }
     );
-    console.log("Database connected successfully");
+    console.log("Database has connected successfully");
   } catch (error) {
     console.log(error);
     process.exit(1);
