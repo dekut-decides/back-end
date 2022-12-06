@@ -30,5 +30,5 @@ app.use("/VoterLogin", authRoutes);
 app.use("/AdminLogin", adminRoute);
 app.use("/RegisterVoter", voterRoute);
 
-app.listen(port, () => console.log(`listening on port${port}`));
+app.listen(port, () => console.log(`server is listening on port${port}`));
 
